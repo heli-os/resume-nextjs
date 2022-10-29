@@ -70,7 +70,7 @@ const frontend: ISkill.Skill = {
   category: 'Front-end',
   items: [
     {
-      title: 'React.js',
+      title: 'React',
       level: 2,
     },
     {

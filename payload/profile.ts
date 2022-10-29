@@ -1,7 +1,7 @@
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { faGithub, faFacebook, faYoutube, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import image from '../asset/_sample.jpg';
+import image from '../asset/profile.jpg';
 import { IProfile } from '../component/profile/IProfile';
 
 const profile: IProfile.Payload = {
@@ -16,7 +16,7 @@ const profile: IProfile.Payload = {
   contact: [
     {
       title: 'sun@dataportal.kr',
-      link: '#',
+      link: 'mailto:sun@dataportal.kr',
       icon: faEnvelope,
     },
     {

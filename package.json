@@ -1,6 +1,6 @@
 {
   "name": "resume-nextjs",
-  "lastestUpdatedAt": "2022-10-27",
+  "lastestUpdatedAt": "2022-10-30",
   "version": "1.2.0",
   "description": "Static HTML based RESUME made with next.js",
   "main": "index.js",
@@ -18,10 +18,10 @@
     "lint": "eslint \"component/**/*\" \"pages/**/*\" \"payload/**/*\" \"*.ts\" --fix",
     "typedoc": "typedoc --excludeExternals"
   },
-  "homepage": "https://heli-os.github.io/resume-nextjs",
+  "homepage": "https://resume.dataportal.kr",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uyu423/resume-nextjs.git"
+    "url": "git+https://github.com/heli-os/resume-nextjs.git"
   },
   "keywords": [
     "resume",
