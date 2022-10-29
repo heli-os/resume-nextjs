@@ -78,7 +78,7 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: 'A/B 테스트 상세 분석 백엔드 개발 및 유지보수 / 운영',
+      title: 'A/B 테스트 상세 분석 백엔드 개발 및 유지보수 및 운영',
       startedAt: '2021-06',
       endedAt: '2021-09',
       where: '핵클 (Hackle)',
