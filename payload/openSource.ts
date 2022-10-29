@@ -117,13 +117,26 @@ const openSource: IOpenSource.Payload = {
       ],
     },
     {
-      title: 'Developer Community',
+      title: 'Code For Korea',
       descriptions: [
         {
-          content: '기술 경험 공유 네트워크 "위클리 아카데미" 개설 / 운영',
+          content: '오픈소스 기술 기반 비영리 단체 운영',
         },
         {
-          content: '카프카 한국 사용자 모임(Kafka KRU)',
+          content: 'Homepage: ',
+          postHref: 'https://codefor.kr',
+        },
+      ],
+    },
+    {
+      title: '위클리 아카데미',
+      descriptions: [
+        {
+          content: '기술 경험 공유 네트워크 개설 및 운영',
+        },
+        {
+          content: 'Homepage: ',
+          postHref: 'https://weekly.ac',
         },
       ],
     },
