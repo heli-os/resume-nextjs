@@ -23,7 +23,7 @@ export const _global: IGlobal.Payload = {
           url: previewImage,
           width: 800,
           height: 600,
-          alt: 'OpenGraph Image Sample.png',
+          alt: title,
         },
       ],
       type: 'profile',
