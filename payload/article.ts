@@ -5,6 +5,11 @@ const article: IArticle.Payload = {
 
   list: [
     {
+      content: 'Civic Hacking for COVID-19 Recovery: The Story of Code for Korea',
+      href:
+        'https://codeforall.org/2022/09/06/civic-hacking-for-covid-19-recovery-the-story-of-code-for-korea',
+    },
+    {
       content: '[Java & Kotlin] enum class가 완벽한 싱글톤이라 불리는 이유',
       href: 'https://dataportal.kr/54',
     },
