@@ -4,7 +4,7 @@ import { IGlobal } from '../component/common/IGlobal';
 import { homepage } from '../package.json';
 
 const title = 'Resume: Taeyang Jin';
-const description = 'This is Back-end Software Engineer Taeyang&#x27;s Resume. Thank you';
+const description = "This is Back-end Software Engineer Taeyang's Resume. Thank you";
 
 export const _global: IGlobal.Payload = {
   favicon,
