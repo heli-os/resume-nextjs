@@ -39,6 +39,7 @@ const experience: IExperience.Payload = {
         'Stripe, TossPayments 연동 결제 시스템의 BFF(Backend For Front) 서버 개발',
         '최근 고객 데이터 조회 기능 속도 개선 / 800ms~1200ms -> 100ms~200ms',
         '고객사 Needs 에 맞는 사용성 개선과 신규 비즈니스 로직 구현',
+        '레거시 청산 및 기존 비즈니스 유지보수',
         '내부 플랫폼 및 시스템 안정성 관련 기능 개발',
       ],
       skillKeywords: [

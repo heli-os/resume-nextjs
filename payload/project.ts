@@ -52,15 +52,38 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: '최근 고객 데이터 조회 기능 속도 개선',
-      startedAt: '2021-10',
-      endedAt: '2021-10',
+      title: '레거시 청산 및 기존 비즈니스 유지보수',
+      startedAt: '2021-06',
+      endedAt: '2021-11',
       where: '핵클 (Hackle)',
       descriptions: [
-        { content: '기존: 800ms~1200ms → 개선: 100ms~200ms' },
         {
-          content:
-            'ElasticSearch에서 특정 기간의 Row를 모두 조회하던 시스템을 저장 시점부터 중복 데이터는 저장하지 않게끔 개선하여 데이터 조회 속도 향상',
+          content: '최근 고객 데이터 조회 기능 속도 개선',
+          descriptions: [
+            { content: '기존: 800ms~1200ms → 개선: 100ms~200ms' },
+            {
+              content:
+                'ElasticSearch에서 특정 기간의 Row를 모두 조회하던 시스템을 저장 시점부터 중복 데이터는 저장하지 않게끔 개선하여 데이터 조회 속도 향상',
+            },
+          ],
+        },
+        {
+          content: 'AWS Kinesis Produce 로직 이슈 식별',
+          descriptions: [
+            { content: '기존에 사용되던 Application -> Kinesis -> S3 파이프라인의 이슈 식별' },
+            {
+              content:
+                '키네시스는 데이터를 어떤 샤드(Kafka의 파티션)에 적재할지 애플리케이션에서 직접 지정해주어야 함',
+            },
+            {
+              content:
+                '애플리케이션은 샤드에 쓰기 실패한 경우 재시도하는 로직을 지니고 있었는데, Retry 시 키를 새롭게 할당받지 않아 문제 발생',
+            },
+            {
+              content:
+                'Why? 쓰기 실패가 발생하는 대부분의 케이스는 특정 샤드에 쓰기 요청이 몰렸기 때문. 그러나 재시도할 때 키가 같다 보니 동일한 샤드에 쓰기를 시도하여 지속하여 실패',
+            },
+          ],
         },
       ],
     },
