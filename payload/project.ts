@@ -5,38 +5,36 @@ const project: IProject.Payload = {
   list: [
     {
       title: '탈퇴 회원 거래내역 분리보관 파이프라인 설계 및 개발',
-      startedAt: '2022-01',
-      // endedAt: '',
+      startedAt: '2022-09',
+      endedAt: '2022-11',
       where: '카카오페이 (kakaopay)',
-      descriptions: [
-        // { content: '' },
-      ],
-    },
-    {
-      title: '펌뱅킹, 오픈뱅킹 연동 고도화',
-      startedAt: '2022-01',
-      // endedAt: '',
-      where: '카카오페이 (kakaopay)',
-      descriptions: [
-        // { content: '' },
-      ],
-    },
-    {
-      title: '머니 어드민 Back-office 고도화',
-      startedAt: '2022-01',
-      // endedAt: '',
-      where: '카카오페이 (kakaopay)',
-      descriptions: [
-        // { content: '' },
-      ],
+      descriptions: [{ content: '(TBU)' }],
     },
     {
       title: '머니 운영 고도화',
       startedAt: '2022-01',
       // endedAt: '',
       where: '카카오페이 (kakaopay)',
+      descriptions: [{ content: '(TBU)' }],
+    },
+    {
+      title: '펌뱅킹, 오픈뱅킹 연동 고도화',
+      startedAt: '2022-05',
+      endedAt: '2022-09',
+      where: '카카오페이 (kakaopay)',
+      descriptions: [{ content: '(TBU)' }],
+    },
+    {
+      title: '머니 어드민 Back-office 고도화',
+      startedAt: '2022-02',
+      endedAt: '2022-04',
+      where: '카카오페이 (kakaopay)',
       descriptions: [
-        // { content: '' },
+        {
+          content: 'Angular/React 구버전 + FE 빌드 결과물 SpringBoot 서빙 구조 재설계 및 리팩토링',
+          descriptions: [{ content: 'React 17 + Express.js 서빙 구조로 변경' }],
+        },
+        { content: '(TBU)' },
       ],
     },
     {
