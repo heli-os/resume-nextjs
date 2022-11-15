@@ -11,13 +11,6 @@ const project: IProject.Payload = {
       descriptions: [{ content: '(TBU)' }],
     },
     {
-      title: '머니 운영 고도화',
-      startedAt: '2022-01',
-      // endedAt: '',
-      where: '카카오페이 (kakaopay)',
-      descriptions: [{ content: '(TBU)' }],
-    },
-    {
       title: '펌뱅킹, 오픈뱅킹 연동 고도화',
       startedAt: '2022-05',
       endedAt: '2022-09',
@@ -31,11 +24,28 @@ const project: IProject.Payload = {
       where: '카카오페이 (kakaopay)',
       descriptions: [
         {
+          content:
+            '목적: 기존에 여러 조직에서 하나로 관리하고 있는 어드민 분리를 통한 업무 R&R, 관리 책임 등 재정의',
+        },
+        {
           content: 'Angular/React 구버전 + FE 빌드 결과물 SpringBoot 서빙 구조 재설계 및 리팩토링',
           descriptions: [{ content: 'React 17 + Express.js 서빙 구조로 변경' }],
         },
-        { content: '(TBU)' },
+        {
+          content: 'R&R이 명확하지 않아 발생했던 불필요한 커뮤니케이션 비용 절약',
+        },
+        {
+          content:
+            '전반적인 어드민 사용성 개선을 통한 개발자가 아닌 누구나 어드민 이용 가능한 매뉴얼 제작',
+        },
       ],
+    },
+    {
+      title: '머니 운영 고도화',
+      startedAt: '2022-01',
+      // endedAt: '',
+      where: '카카오페이 (kakaopay)',
+      descriptions: [{ content: '(TBU)' }],
     },
     {
       title: '내부 플랫폼 및 시스템 안정성 관련 기능 개발',
@@ -109,6 +119,109 @@ const project: IProject.Payload = {
         {
           content:
             '예비 엔터프라이즈 고객사를 실제 고객사로 전환시켜 기존 대비 엔터프라이즈 고객사의 숫자 100% 증가',
+        },
+      ],
+    },
+    {
+      title: '코로나19 개인 안심번호',
+      startedAt: '2020-12',
+      endedAt: '2021-02',
+      where: '코드포코리아 (Code for Korea)',
+      descriptions: [
+        {
+          content: '개인 안심번호 생성 시스템 설계 및 개발',
+          descriptions: [
+            { content: '비대칭키 암호화 알고리즘에 기반한 개인 안심번호 생성 로직 구현' },
+            {
+              content:
+                '이를 통한 질병관리청을 제외하고는 개인 안심번호를 복호화 불가하게 구성(QR 발급사 포함)',
+            },
+          ],
+        },
+        {
+          content: '실제 적용 방법 가이드 작성 & 데모 시스템 개발',
+          descriptions: [
+            { content: '질병관리청, QR 발급사를 위한 적용/사용 가이드 작성, 제시' },
+            { content: '적용 가이드에 기반한 적용 데모 시스템(웹앱) 개발' },
+          ],
+        },
+        {
+          content: '네이버, 카카오, PASS 시스템에 도입',
+          descriptions: [
+            {
+              content:
+                '기존 수기명부에 전화번호를 작성하던 방식을 개선하기 위함인데, 이러한 개인안심번호를 어떻게 전달할지 고민',
+            },
+            { content: '일괄 문자 발송, 우편발송 등은 비용과 효율성 문제가 있겠다 판단' },
+            {
+              content:
+                '기존에 사용되던 네이버, 카카오, PASS QR 체크인 페이지에 개인안심번호 영역 추가',
+            },
+          ],
+        },
+        {
+          content: '코로나19 수기출입명부를 통한 개인정보 유출 사례 감소',
+          descriptions: [
+            { content: '코로나19 방역을 위해 수집되는 휴대전화번호 유출과 오・남용 사례 감소' },
+            { content: '개인정보 유출에 대한 우려로 발생했던 허위기재 감소' },
+          ],
+        },
+      ],
+    },
+    {
+      title: '코로나19 공공데이터 공동대응 및 애플리케이션 개발',
+      startedAt: '2020-02',
+      endedAt: '2020-04',
+      where: '코드포코리아 (Code for Korea)',
+      descriptions: [
+        {
+          content: '코로나19 관련 공공데이터 현황 분석',
+          descriptions: [
+            {
+              content:
+                '시각화에 초점을 맞 데이터 제공으로 컴퓨터가 읽을 수 없는 데이터 제공 현황 파악',
+            },
+            {
+              content: '공적 마스크 재고 현황의 경우 전혀 국민에게 제공되지 않고 있음을 파악',
+            },
+          ],
+        },
+        {
+          content: '코로나19 관련 공공데이터 개방 요청',
+          descriptions: [
+            { content: '광화문1번가, 공공데이터포털, 정부 실무자 등을 통한 개방 제안서 전달' },
+            { content: '청와대, 행정안전부, 과학기술정보통신부 주관 미팅 참석' },
+          ],
+        },
+        {
+          content: '코로나19 공적마스크 재고 API 개발 기여(with 정부/네이버/KT)',
+          descriptions: [
+            { content: 'API 개발 단계에서 요구사항 집계 & 전달' },
+            { content: 'API 테스트 & 피드백 전달' },
+          ],
+        },
+        {
+          content: '코로나19 공적마스크 재고 현황 애플리케이션 개발',
+          descriptions: [
+            { content: 'API 개발 단계에서 요구사항 집계 & 전달' },
+            { content: '공적마스크 재고 데이터 베타테스트 실시' },
+            { content: '코로나19 공적마스크 재고 현황 API를 이용한 애플리케이션 개발 가이드 작성' },
+          ],
+        },
+        {
+          content: '코로나19 공적마스크 재고 API & 서비스 시작',
+          descriptions: [
+            {
+              content: 'API 서비스 첫날 총 9천만회 API 호출, 시간당 최대 7백만회',
+            },
+          ],
+        },
+        {
+          content: '공적 마스크 매진율 증가',
+          descriptions: [
+            { content: '데이터 개방 전 매진율: 67.9%' },
+            { content: '데이터 개방 후 매진율: 86.4%(1주일 후)' },
+          ],
         },
       ],
     },
