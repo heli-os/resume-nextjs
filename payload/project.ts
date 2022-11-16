@@ -25,10 +25,11 @@ const project: IProject.Payload = {
       descriptions: [
         {
           content:
-            '목적: 기존에 여러 조직에서 하나로 관리하고 있는 어드민 분리를 통한 업무 R&R, 관리 책임 등 재정의',
+            '목적: 하나로 관리하고 있는 어드민을 조직별 R&R에 맞게 분리하여 업무 효율성 향상',
         },
         {
-          content: 'Angular/React 구버전 + FE 빌드 결과물 SpringBoot 서빙 구조 재설계 및 리팩토링',
+          content:
+            'Angular/React 구버전 빌드 결과물을 SpringBoot로 서빙하던 구조 재설계 및 리팩토링',
           descriptions: [{ content: 'React 17 + Express.js 서빙 구조로 변경' }],
         },
         {
@@ -36,16 +37,37 @@ const project: IProject.Payload = {
         },
         {
           content:
-            '전반적인 어드민 사용성 개선을 통한 개발자가 아닌 누구나 어드민 이용 가능한 매뉴얼 제작',
+            '전반적인 어드민 사용성 개선을 통한 개발자가 아닌 누구나 어드민 이용 가능한 매뉴얼 제작 및 세션 진행',
         },
       ],
     },
     {
-      title: '머니 운영 고도화',
+      title: '레거시 청산 및 기존 비즈니스 유지보수 (a.k.a. 머니 운영 고도화)',
       startedAt: '2022-01',
       // endedAt: '',
       where: '카카오페이 (kakaopay)',
-      descriptions: [{ content: '(TBU)' }],
+      descriptions: [
+        {
+          content:
+            '일시적 오픈뱅킹 사용 불가 고객의 거래를 펌뱅킹으로 처리하도록 개선하여 송금 성공률 기존 대비 10% 향상',
+        },
+        {
+          content: '2년 이상 방치된 Request/Response 로깅 로직 버그 식별 및 수정',
+        },
+        {
+          content: '과도하게 설정된 MySQL DB Connection Timeout 이슈 식별 및 수정',
+          descriptions: [{ content: '기존: 30s(default)' }, { content: '변경: 3s' }],
+        },
+        {
+          content: '모니터링 누락되어 있는 일부 써킷브레이커 이슈 식별 및 수정',
+        },
+        {
+          content: '어드민 FE, BFF AEM/APM 및 에러 로깅 적용',
+        },
+        {
+          content: '조직내 Grafana & Kibana 운영 가이드 작성 및 세션 진행',
+        },
+      ],
     },
     {
       title: '내부 플랫폼 및 시스템 안정성 관련 기능 개발',
