@@ -16,7 +16,7 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: '펌뱅킹, 오픈뱅킹 운영 및 고도화',
+      title: '펌뱅킹, 오픈뱅킹 운영 및 연동 시스템(금융플랫폼) 고도화',
       startedAt: '2022-05',
       // endedAt: '2022-12',
       where: '카카오페이 (kakaopay)',
