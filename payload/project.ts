@@ -6,16 +6,25 @@ const project: IProject.Payload = {
     {
       title: '탈퇴 회원 거래내역 분리보관 파이프라인 설계 및 개발',
       startedAt: '2022-09',
-      endedAt: '2022-11',
+      endedAt: '2022-12',
       where: '카카오페이 (kakaopay)',
-      descriptions: [{ content: '(TBU)' }],
+      descriptions: [
+        { content: '탈퇴 회원 거래내역 분리보관 법적 요건 분석 및 정책 수립' },
+        { content: '회원 거래내역 탈퇴 이벤트 구독/적재 컨슈머 설계 및 개발' },
+        { content: '다수의 분리보관 대상 테이블에 대한 비동기 복제/삭제 구조 설계 및 개발' },
+        { content: '프로젝트 수행 중 mongo-java-driver 오픈소스 기여' },
+      ],
     },
     {
-      title: '펌뱅킹, 오픈뱅킹 연동 고도화',
+      title: '펌뱅킹, 오픈뱅킹 운영 및 고도화',
       startedAt: '2022-05',
-      endedAt: '2022-09',
+      // endedAt: '2022-12',
       where: '카카오페이 (kakaopay)',
-      descriptions: [{ content: '(TBU)' }],
+      descriptions: [
+        { content: '신규 제휴 은행 출금이체, 입금이체 등 연동' },
+        { content: '전사에 제공되는 금융플랫폼 연동 지원' },
+        { content: 'VAN(헥토파이낸셜, 더즌)과의 업무 협업' },
+      ],
     },
     {
       title: '머니 어드민 Back-office 고도화',
@@ -49,24 +58,18 @@ const project: IProject.Payload = {
       descriptions: [
         {
           content:
-            '일시적 오픈뱅킹 사용 불가 고객의 거래를 펌뱅킹으로 처리하도록 개선하여 송금 성공률 기존 대비 10% 향상',
+            '일시적 오픈뱅킹 사용 불가 고객의 거래를 펌뱅킹으로 처리하도록 개선하여 송금 성공률 기존 대비 10% 향상 및 그에 따른 수수료 절감',
         },
         {
           content: '2년 이상 방치된 Request/Response 로깅 로직 버그 식별 및 수정',
         },
         {
-          content: '과도하게 설정된 MySQL DB Connection Timeout 이슈 식별 및 수정',
-          descriptions: [{ content: '기존: 30s(default)' }, { content: '변경: 3s' }],
+          content:
+            '과도하게 설정된 MySQL DB Connection Timeout 이슈 식별 및 수정 / 기존(30s, default) -> 변경(3s)',
         },
-        {
-          content: '모니터링 누락되어 있는 일부 써킷브레이커 이슈 식별 및 수정',
-        },
-        {
-          content: '어드민 FE, BFF AEM/APM 및 에러 로깅 적용',
-        },
-        {
-          content: '조직내 Grafana & Kibana 운영 가이드 작성 및 세션 진행',
-        },
+        { content: '모니터링 누락되어 있는 일부 써킷브레이커 이슈 식별 및 수정' },
+        { content: '어드민 FE, BFF AEM/APM 및 에러 로깅 적용' },
+        { content: '조직내 Grafana & Kibana 운영 가이드 작성 및 세션 진행' },
       ],
     },
     {

@@ -17,6 +17,7 @@ const experience: IExperience.Payload = {
         '레거시 청산 및 기존 비즈니스 유지보수',
       ],
       skillKeywords: [
+        'Java',
         'Kotlin',
         'SpringBoot',
         'JPA',
