@@ -34,6 +34,10 @@ const article: IArticle.Payload = {
       href: 'https://dataportal.kr/86',
     },
     {
+      content: 'Google Calendar API 분석 및 시스템 구축 전략',
+      href: 'https://dataportal.kr/88',
+    },
+    {
       content: '주니어 개발자의 오픈소스 활동 이야기',
       href: 'https://tech.kakaopay.com/post/junior-opensource',
     },
