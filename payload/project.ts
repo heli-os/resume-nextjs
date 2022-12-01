@@ -11,7 +11,10 @@ const project: IProject.Payload = {
       descriptions: [
         { content: '탈퇴 회원 거래내역 분리보관 법적 요건 분석 및 정책 수립' },
         { content: '회원 거래내역 탈퇴 이벤트 구독/적재 컨슈머 설계 및 개발' },
-        { content: '다수의 분리보관 대상 테이블에 대한 비동기 복제/삭제 구조 설계 및 개발' },
+        {
+          content:
+            '다수의 분리보관 대상 테이블에 대한 카프카 기반 비동기 복제/삭제 구조 설계 및 개발',
+        },
         { content: '프로젝트 수행 중 mongo-java-driver 오픈소스 기여' },
       ],
     },
