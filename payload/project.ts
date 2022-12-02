@@ -25,8 +25,13 @@ const project: IProject.Payload = {
       where: '카카오페이 (kakaopay)',
       descriptions: [
         { content: '신규 제휴 은행 연동: 출금이체, 입금이체, 예금주 조회 등' },
-        { content: '전사에 제공되는 금융플랫폼 연동 지원' },
-        { content: 'VAN(헥토파이낸셜, 더즌)과의 업무 협업' },
+        {
+          content: '전사에 제공되는 금융플랫폼 연동 지원',
+          descriptions: [
+            { content: '페이봇, 자금반환중개(착오송금반환), 머니 송금/충전 등 서비스에 지원' },
+          ],
+        },
+        { content: 'VAN(헥토파이낸셜, 더즌), 금융결제원(오픈뱅킹)과의 업무 협업' },
       ],
     },
     {
