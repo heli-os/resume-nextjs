@@ -38,6 +38,10 @@ const article: IArticle.Payload = {
       href: 'https://dataportal.kr/88',
     },
     {
+      content: '내가 개발 커뮤니티를 하는 이유 (a.k.a 10년 회고)',
+      href: 'https://dataportal.kr/89',
+    },
+    {
       content: '주니어 개발자의 오픈소스 활동 이야기',
       href: 'https://tech.kakaopay.com/post/junior-opensource',
     },
