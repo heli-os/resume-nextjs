@@ -31,6 +31,18 @@ const project: IProject.Payload = {
             { content: '페이봇, 자금반환중개(착오송금반환), 머니 송금/충전 등 서비스에 지원' },
           ],
         },
+        {
+          content: '2022년 10월 15일 카카오 판교 데이터센터 셧다운 대응',
+          descriptions: [
+            {
+              content:
+                '모니터링 툴 조차 사용 불가한 상황 속에서 서버 직접 접속을 통한 헬스 체크 및 DB 커넥션 상태 점검',
+            },
+            { content: '담당 서비스 구성 요소 중 수동 Failover 필요 대상 식별 및 Failover 대응' },
+            { content: '외부 제휴사의 인바운드 요청 상태 점검 및 대응' },
+            { content: '데이터센터 복구 후 주요 서비스 구성요소 Replicaset 정상화 대응' },
+          ],
+        },
         { content: 'VAN(헥토파이낸셜, 더즌), 금융결제원(오픈뱅킹)과의 업무 협업' },
       ],
     },
