@@ -36,11 +36,12 @@ const project: IProject.Payload = {
           descriptions: [
             {
               content:
-                '모니터링 툴 조차 사용 불가한 상황 속에서 서버 직접 접속을 통한 헬스 체크 및 DB 커넥션 상태 점검',
+                '운영 관리 도구 및 모니터링 시스템 셧다운 상황에서 서버 직접 접속을 통한 헬스 체크 및 DB 커넥션 상태 점검',
             },
             { content: '담당 서비스 구성 요소 중 수동 Failover 필요 대상 식별 및 Failover 대응' },
+            { content: '쿠버네티스 노드 리소스 부족에 따른 pod 리사이즈 대응' },
             { content: '외부 제휴사의 인바운드 요청 상태 점검 및 대응' },
-            { content: '데이터센터 복구 후 주요 서비스 구성요소 Replicaset 정상화 대응' },
+            { content: '데이터센터 복구 후 주요 서비스 구성 요소 Replicaset 정상화 대응' },
           ],
         },
         { content: 'VAN(헥토파이낸셜, 더즌), 금융결제원(오픈뱅킹)과의 업무 협업' },
