@@ -121,6 +121,24 @@ const project: IProject.Payload = {
             },
           ],
         },
+        {
+          content: 'AWS Kinesis Produce 로직 이슈 식별',
+          descriptions: [
+            { content: '기존에 사용되던 Application -> Kinesis -> S3 파이프라인의 이슈 식별' },
+            {
+              content:
+                '키네시스는 데이터를 어떤 샤드(Kafka의 파티션)에 적재할지 애플리케이션에서 직접 지정해주어야 함',
+            },
+            {
+              content:
+                '애플리케이션은 샤드에 쓰기 실패한 경우 재시도하는 로직을 지니고 있었는데, Retry 시 키를 새롭게 할당받지 않아 문제 발생',
+            },
+            {
+              content:
+                'Why? 쓰기 실패가 발생하는 대부분의 케이스는 특정 샤드에 쓰기 요청이 몰렸기 때문. 그러나 재시도할 때 키가 같다 보니 동일한 샤드에 쓰기를 시도하여 지속하여 실패',
+            },
+          ],
+        },
       ],
     },
     {
