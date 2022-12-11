@@ -45,6 +45,10 @@ const article: IArticle.Payload = {
       content: '주니어 개발자의 오픈소스 활동 이야기',
       href: 'https://tech.kakaopay.com/post/junior-opensource',
     },
+    {
+      content: 'Java Compiler Optimization',
+      href: 'https://dataportal.kr/90',
+    },
   ],
 };
 
