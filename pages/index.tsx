@@ -28,13 +28,13 @@ function Yosume() {
       <Container style={Style.global}>
         <Profile.Component payload={Payload.profile} />
         <Introduce.Component payload={Payload.introduce} />
-        <Skill.Component payload={Payload.skill} />
         <Experience.Component payload={Payload.experience} />
         <Project.Component payload={Payload.project} />
         <OpenSource.Component payload={Payload.openSource} />
         <Article.Component payload={Payload.article} />
         <Presentation.Component payload={Payload.presentation} />
         <Education.Component payload={Payload.education} />
+        <Skill.Component payload={Payload.skill} />
         <Etc.Component payload={Payload.etc} />
         <Footer.Component payload={Payload.footer} />
       </Container>
