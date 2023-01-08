@@ -1,6 +1,12 @@
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
-import { faGithub, faFacebook, faYoutube, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import {
+  faGithub,
+  faFacebook,
+  faYoutube,
+  faLinkedin,
+  faTwitter,
+} from '@fortawesome/free-brands-svg-icons';
 import image from '../asset/profile.jpg';
 import { IProfile } from '../component/profile/IProfile';
 
@@ -25,6 +31,11 @@ const profile: IProfile.Payload = {
       badge: true,
     },
     {
+      title: 'Linkedin',
+      link: 'https://www.linkedin.com/in/taeyang-jin',
+      icon: faLinkedin,
+    },
+    {
       title: 'Github',
       link: 'https://github.com/heli-os',
       icon: faGithub,
@@ -35,9 +46,9 @@ const profile: IProfile.Payload = {
       icon: faFacebook,
     },
     {
-      title: 'Linkedin',
-      link: 'https://www.linkedin.com/in/taeyang-jin',
-      icon: faLinkedin,
+      title: 'Twitter',
+      link: 'https://twitter.com/jinssssun',
+      icon: faTwitter,
     },
     {
       title: 'YouTube',
