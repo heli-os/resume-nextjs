@@ -44,6 +44,24 @@ const openSource: IOpenSource.Payload = {
       ],
     },
     {
+      title: 'member invitation simple example',
+      descriptions: [
+        {
+          content: '(Repository) heli-os/member-invitation-java-springboot',
+          href: 'https://github.dataportal.kr/member-invitation-java-springboot',
+          descriptions: [
+            { content: '회원 초대 생성/수락 간단 예제' },
+            { content: 'Java, SpringBoot, Redis, MySQL' },
+          ],
+        },
+        {
+          content: 'Github Stars: ',
+          postImage:
+            'https://img.shields.io/github/stars/heli-os/member-invitation-java-springboot.svg?style=popout',
+        },
+      ],
+    },
+    {
       title: 'ksp',
       descriptions: [
         {
