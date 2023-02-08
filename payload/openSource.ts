@@ -138,7 +138,7 @@ const openSource: IOpenSource.Payload = {
       title: 'Code For Korea',
       descriptions: [
         {
-          content: '오픈소스 기술 기반 비영리 단체 운영',
+          content: '오픈소스 기술 기반 비영리 단체 설립 및 운영',
         },
         {
           content: 'Homepage: ',
@@ -150,7 +150,10 @@ const openSource: IOpenSource.Payload = {
       title: '위클리 아카데미',
       descriptions: [
         {
-          content: '기술 경험 공유 네트워크 개설 및 운영',
+          content: '규모 기술 경험 공유 네트워크 개설 및 운영',
+        },
+        {
+          content: '스터디, 세미나, 컨퍼런스를 통한 다양한 기술 분야 정보 공유/습득',
         },
         {
           content: 'Homepage: ',
