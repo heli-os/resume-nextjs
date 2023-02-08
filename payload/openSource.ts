@@ -158,6 +158,14 @@ const openSource: IOpenSource.Payload = {
         },
       ],
     },
+    {
+      title: '파이콘 한국',
+      descriptions: [
+        {
+          content: '파이콘 한국 기획 및 홍보, 후원사 운영',
+        },
+      ],
+    },
   ],
 };
 
