@@ -9,6 +9,7 @@ const experience: IExperience.Payload = {
       position: '머니클랜 금융코어플랫폼 서버 개발자',
       startedAt: '2022-01',
       descriptions: [
+        '은행 통합 정보 플랫폼 Sdk 설계 및 개발',
         '탈퇴 회원 거래내역 분리보관 파이프라인 설계 및 개발',
         '펌뱅킹/오픈뱅킹 연동 시스템(금융플랫폼) 운영 및 고도화',
         '머니 어드민 Back-office 고도화',
