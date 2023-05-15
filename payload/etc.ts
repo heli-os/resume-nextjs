@@ -5,6 +5,24 @@ const etc: IEtc.Payload = {
 
   list: [
     {
+      title: '경북대학교 해커톤 멘토',
+      subTitle: '대구로 데이터 활용 해커톤 멘토링',
+      startedAt: '2023-02',
+      endedAt: '2023-03',
+    },
+    {
+      title: '코드스테이츠 모의 기술 면접관 및 멘토',
+      subTitle: 'Java, Spring, Computer Science 모의 면접 및 멘토링',
+      startedAt: '2022-11',
+      endedAt: '2023-02',
+    },
+    {
+      title: '캐치(진학사) LIVE 클래스 및 VOD 특강',
+      subTitle: '지속가능한 개발자가 되기 위한 학습 경험 공유 및 멘토링',
+      startedAt: '2022-09',
+      endedAt: '2022-11',
+    },
+    {
       title: '2022년 개인정보 국민점검단 (개인정보보호위원회)',
       subTitle: '일상생활 속 다양한 개인정보 침해요인 발굴 및 개선의견 전달',
       startedAt: '2022-07',

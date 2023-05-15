@@ -5,9 +5,17 @@ const experience: IExperience.Payload = {
   disableTotalPeriod: false,
   list: [
     {
+      title: '볼타코퍼레이션 (Bolta Corporation)',
+      position: 'CTO & co-founder',
+      startedAt: '2023-05',
+      descriptions: ['제품 기획 및 개발/운영'],
+      skillKeywords: ['Kotlin', 'SpringBoot', 'JPA', 'QueryDsl', 'MySQL', '사업'],
+    },
+    {
       title: '카카오페이 (kakaopay)',
       position: '머니클랜 금융코어플랫폼 서버 개발자',
       startedAt: '2022-01',
+      endedAt: '2023-06',
       descriptions: [
         '은행 통합 정보 플랫폼 Sdk 설계 및 개발',
         '탈퇴 회원 거래내역 분리보관 파이프라인 설계 및 개발',
@@ -22,7 +30,6 @@ const experience: IExperience.Payload = {
         'SpringBoot',
         'JPA',
         'QueryDsl',
-        'Reactive Feign Client',
         'MySQL',
         'MongoDB',
         'Kafka',
